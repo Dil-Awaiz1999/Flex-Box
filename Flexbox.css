@@ -1,0 +1,23 @@
+.parent{
+    width: 600px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+}
+.child{
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+.child:nth-child(1){
+    margin-bottom: 3rem;
+}
+.sub-child1, .sub-child2{
+    width: 40%;
+    height: 100%;
+    background-color: orangered;
+   
+    
+}
